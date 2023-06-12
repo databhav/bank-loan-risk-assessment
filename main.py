@@ -72,8 +72,7 @@ with col1:
     fig.update_layout(
     title='Salary vs Credit Score',
     title_font=dict(size=24),
-    width=900,  # Set the width of the plot
-    height=600  # Set the height of the plot
+
 )
     # Display the interactive plot in Streamlit
     st.plotly_chart(fig)   
