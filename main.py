@@ -11,7 +11,7 @@ import plotly.express as px
 st.set_page_config(layout="wide")
 
 # loading dataset
-df = pd.read_csv("/BCC.csv")
+df = pd.read_csv("BCC.csv")
 df.head()
 
 # creating df2 to work with
