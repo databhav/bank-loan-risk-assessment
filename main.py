@@ -105,7 +105,7 @@ with col2:
         Y_pred = model.predict(pred)
         Y_pred = Y_pred.astype(float)
         # selecting conditions to show the risk level based on predicted value
-        if Y_pred[0] <=3:
+        if Y_pred[0] <=4:
             pred_risk = 'high risk'
         elif Y_pred[0] <=6:
             pred_risk = 'medium risk'
